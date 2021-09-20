@@ -4,6 +4,10 @@
     <title>Posts on My Blog</title>
     <link>https://bahdah.github.io/posts/</link>
     <description>Recent content in Posts on My Blog</description>
+    <image>
+      <url>https://bahdah.github.io/papermod-cover.png</url>
+      <link>https://bahdah.github.io/papermod-cover.png</link>
+    </image>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
     <lastBuildDate>Sun, 19 Sep 2021 21:12:16 -0400</lastBuildDate><atom:link href="https://bahdah.github.io/posts/index.xml" rel="self" type="application/rss+xml" />
