@@ -13,34 +13,33 @@ googleAnalytics = "G-T3GB2SRLJX"
 [minify]
     disableXML = true
     minifyOutput = true
+[outputs]
+home = [ "HTML", "RSS", "JSON" ]
 
 [params]
-    [fuseOpts]
-        isCaseSensitive = false
-        shouldSort = true
-        location = 0
-        distance = 1000
-        threshold = 0.4
-        minMatchCharLength = 0
-        keys = ["title", "permalink", "summary", "content"]
-    
-[outputs]
-    home = ["HTML", "RSS", "JSON"]
+env = "production"
+description = "Theme PaperMod - https://github.com/adityatelange/hugo-PaperMod"
+author = "Theme PaperMod"
+defaultTheme = "auto"
+ShowShareButtons = true
+ShowReadingTime = true
+displayFullLangName = true
+ShowPostNavLinks = true
+ShowBreadCrumbs = true
+ShowCodeCopyButtons = true
+ShowToc = true
+images = [ "papermod-cover.png" ]
 
-[[menu.main]]
-identifier = "categories"
-name = "categories"
-url = "/categories/"
-weight = 10
+  [params.profileMode]
+  enabled = false
+  title = "PaperMod"
+  imageUrl = "#"
+  imageTitle = "my image"
 
-[[menu.main]]
-identifier = "tags"
-name = "tags"
-url = "/tags/"
-weight = 20
+    [[params.profileMode.buttons]]
+    name = "Archives"
+    url = "archives"
 
-[[menu.main]]
-identifier = "example"
-name = "example.org"
-url = "https://example.org"
-weight = 30
+    [[params.profileMode.buttons]]
+    name = "Tags"
+    url = "tags"
