@@ -29,3 +29,5 @@ googleAnalytics = "G-T3GB2SRLJX"
         minMatchCharLength = 0
         keys = ["title", "permalink", "summary", "content"]
     
+[outputs]
+    home = [HTML, RSS, JSON]
