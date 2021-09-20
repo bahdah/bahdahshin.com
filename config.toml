@@ -38,20 +38,6 @@ name = "Categories"
 url = "categories/"
 weight = 10
 
-[languages.fa]
-languagedirection = "rtl"
-weight = 3
-title = "PaperMod RTL"
-
-  [languages.fa.homeInfoParams]
-  Title = "Hi there 👋"
-  Content = "Welcome to RTL layout"
-
-[[languages.fa.menu.main]]
-name = "Tags"
-url = "tags"
-weight = 10
-
 [outputs]
 home = [ "HTML", "RSS", "JSON" ]
 
