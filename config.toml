@@ -15,10 +15,12 @@ googleAnalytics = "G-T3GB2SRLJX"
     minifyOutput = true
 
 [params]
+    env = "production"
     title = "My Blog"
     description = "My Blog description"
-    author = Me
-    defaultTheme = auto
+    keywords = ["blog"]
+    author = "Me"
+    defaultTheme = "auto"
     disableThemeToggle = false
 
     ShowReadingTime = true
@@ -29,8 +31,8 @@ googleAnalytics = "G-T3GB2SRLJX"
 
     [profileMode]
         enabled = true
-        title = My Blog
-        subtitle = This is subtitle
+        title = "My Blog"
+        subtitle = "This is subtitle"
     
     [fuseOpts]
         isCaseSensitive = false
