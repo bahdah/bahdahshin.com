@@ -1,4 +1,45 @@
 baseURL = 'https://bahdah.github.io/'
 languageCode = 'en-us'
-title = 'My New Hugo Site'
+title = 'My Blog'
+paginate = 5
 theme = "PaperMod"
+
+buildDrafts = false
+buildFuture = false
+buildExpired = false
+
+googleAnalytics = "G-T3GB2SRLJX"
+
+[minify]
+    disableXML = true
+    minifyOutput = true
+
+[params]
+    env = production
+    title = "My Blog"
+    description = "My Blog description"
+    keywords = [blog]
+    author = Me
+    defaultTheme = auto
+    disableThemeToggle = false
+
+    ShowReadingTime = true
+    ShowShareButtons = true
+    ShowPostNavLinks = true
+    ShowBreadCrumbs = true
+    comments = false
+
+    [profileMode]
+        enabled = true
+        title = My Blog
+        subtitle = This is subtitle
+    
+    [fuseOpts]
+        isCaseSensitive = false
+        shouldSort = true
+        location = 0
+        distance = 1000
+        threshold = 0.4
+        minMatchCharLength = 0
+        keys = ["title", "permalink", "summary", "content"]
+    
