@@ -1,6 +1,6 @@
 baseURL = 'https://bahdah.github.io/'
 languageCode = 'en-us'
-title = 'My Blog'
+title = 'Bahdah Shin'
 paginate = 5
 theme = "PaperMod"
 
