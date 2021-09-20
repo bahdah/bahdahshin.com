@@ -4,6 +4,8 @@ title = 'My Blog'
 paginate = 5
 theme = "PaperMod"
 
+googleAnalytics = "G-T3GB2SRLJX"
+
 enableInlineShortcodes = true
 enableRobotsTXT = true
 buildDrafts = false
