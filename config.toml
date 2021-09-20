@@ -43,3 +43,11 @@ images = [ "papermod-cover.png" ]
     [[params.profileMode.buttons]]
     name = "Tags"
     url = "tags"
+
+[taxonomies]
+category = "categories"
+tag = "tags"
+series = "series"
+
+[markup.goldmark.renderer]
+unsafe = true
