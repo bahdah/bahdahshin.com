@@ -15,11 +15,6 @@ googleAnalytics = "G-T3GB2SRLJX"
     minifyOutput = true
 
 [params]
-    [profileMode]
-        enabled = true
-        title = "My Blog"
-        subtitle = "This is subtitle"
-    
     [fuseOpts]
         isCaseSensitive = false
         shouldSort = true
