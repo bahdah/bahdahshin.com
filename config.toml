@@ -30,4 +30,4 @@ googleAnalytics = "G-T3GB2SRLJX"
         keys = ["title", "permalink", "summary", "content"]
     
 [outputs]
-    home = [HTML, RSS, JSON]
+    home = ["HTML", "RSS", "JSON"]
