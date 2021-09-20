@@ -15,20 +15,6 @@ googleAnalytics = "G-T3GB2SRLJX"
     minifyOutput = true
 
 [params]
-    env = "production"
-    title = "My Blog"
-    description = "My Blog description"
-    keywords = ["blog"]
-    author = "Me"
-    defaultTheme = "auto"
-    disableThemeToggle = false
-
-    ShowReadingTime = true
-    ShowShareButtons = true
-    ShowPostNavLinks = true
-    ShowBreadCrumbs = true
-    comments = false
-
     [profileMode]
         enabled = true
         title = "My Blog"
