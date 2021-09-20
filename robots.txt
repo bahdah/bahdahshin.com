@@ -1,0 +1,3 @@
+User-agent: *
+Disallow:
+Sitemap: https://bahdah.github.io/sitemap.xml
