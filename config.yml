@@ -61,7 +61,7 @@ params:
   profileMode:
     enabled: true
     title: "Bahdah Shin" # optional default will be site title
-    subtitle: "This is my blog"
+    subtitle: "Welcome to my blog!"
     buttons:
       - name: Archive
         url: "/archives/"
