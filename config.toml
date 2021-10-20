@@ -45,7 +45,7 @@ home = [ "HTML", "RSS", "JSON" ]
 
 [params]
 env = "production"
-description = "Theme PaperMod - https://github.com/adityatelange/hugo-PaperMod"
+description = "Bahdah Shin's Blog"
 author = "Theme PaperMod"
 defaultTheme = "auto"
 ShowShareButtons = true
