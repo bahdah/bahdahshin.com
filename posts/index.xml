@@ -10,14 +10,23 @@
     </image>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
-    <lastBuildDate>Wed, 20 Oct 2021 14:53:52 -0400</lastBuildDate><atom:link href="https://bahdah.github.io/posts/index.xml" rel="self" type="application/rss+xml" />
+    <lastBuildDate>Wed, 20 Oct 2021 15:18:08 -0400</lastBuildDate><atom:link href="https://bahdah.github.io/posts/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Hugo Snippets</title>
+      <link>https://bahdah.github.io/posts/hugo-snippets/</link>
+      <pubDate>Wed, 20 Oct 2021 15:18:08 -0400</pubDate>
+      
+      <guid>https://bahdah.github.io/posts/hugo-snippets/</guid>
+      <description>hugo new &amp;lt;file path&amp;gt;.md </description>
+    </item>
+    
     <item>
       <title>Git Snippets</title>
       <link>https://bahdah.github.io/posts/git-snippets/</link>
       <pubDate>Wed, 20 Oct 2021 14:53:52 -0400</pubDate>
       
       <guid>https://bahdah.github.io/posts/git-snippets/</guid>
-      <description>Update All Submodules git submodule update --recursive --remote</description>
+      <description>Update All Submodules git submodule update --recursive --remote </description>
     </item>
     
     <item>
