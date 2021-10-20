@@ -1,0 +1,90 @@
+baseURL: "https://bahdah.github.io/"
+languageCode: "en-us"
+title: Bahdah Shin
+paginate: 5
+theme: PaperMod
+
+googleAnalytics: G-T3GB2SRLJX
+
+enableInlineShortcodes: true
+enableRobotsTXT: true
+buildDrafts: false
+buildFuture: false
+buildExpired: false
+enableEmoji: true
+
+minify:
+  disableXML: true
+  minifyOutput: true
+
+menu:
+  main:
+    - identifier: categories
+      name: Categories
+      url: /categories/
+      weight: 10
+    - identifier: tags
+      name: Tags
+      urL: /tags/
+      weight: 10
+    - identifier: search
+      name: Search
+      url: /search/
+      weight: 10
+    - identifier: archives
+      name: Archives
+      url: /archives/
+      weight: 5
+
+
+outputs:
+  home:
+    - HTML
+    - RSS
+    - JSON
+
+params:
+  env: production
+  description: Bahdah Shin's Blog
+  author: Bahdah Shin
+  defaultTheme: auto
+  ShowShareButtons: false
+  ShowReadingTime: true
+  displayFullLangName: true
+  ShowPostNavLinks: true
+  ShowBreadCrumbs: true
+  ShowCodeCopyButtons: true
+  ShowToc: true
+  images: [ "papermod-cover.png" ]
+
+
+  profileMode:
+    enabled: true
+    title: "Bahdah Shin" # optional default will be site title
+    subtitle: "This is my blog"
+    buttons:
+      - name: Archive
+        url: "/archives/"
+      - name: Github
+        url: "https://github.com/bahdah/bahdah.github.io"
+
+  socialIcons:
+    - name: github
+      url: "https://github.com/bahdah/bahdah.github.io"
+    - name: RsS
+      url: "index.xml"
+
+  editPost:
+    URL: "https://github.com/bahdah/bahdah.github.io/tree/main/content"
+    Text: "Suggest Changes" # edit text
+    appendFilePath: true # to append file path to Edit link
+
+taxonomies:
+  category: categories
+  tag: tags
+  series: series
+
+markup:
+  goldmark:
+    renderer:
+      unsafe: true

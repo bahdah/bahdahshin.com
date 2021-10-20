@@ -5,6 +5,12 @@ tags: ["hugo"]
 draft: false
 ---
 
-```bash
+### Create New Post
+```shell
 hugo new <file path>.md
+```
+
+### Run Hugo Web Server In Local
+```shell
+hugo serve
 ```

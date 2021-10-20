@@ -6,6 +6,6 @@ tags: ["git"]
 ---
 
 ### Update All Submodules
-```bash
+```shell
 git submodule update --recursive --remote
 ```
