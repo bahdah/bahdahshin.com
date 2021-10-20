@@ -77,7 +77,7 @@ images = [ "papermod-cover.png" ]
 
   [[params.socialIcons]]
   name = "github"
-  url = "https://github.com/bahdah"
+  url = "https://github.com/bahdah/bahdah.github.io"
 
   [[params.socialIcons]]
   name = "Rss"
