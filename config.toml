@@ -48,7 +48,7 @@ env = "production"
 description = "Bahdah Shin's Blog"
 author = "Theme PaperMod"
 defaultTheme = "auto"
-ShowShareButtons = true
+ShowShareButtons = false
 ShowReadingTime = true
 displayFullLangName = true
 ShowPostNavLinks = true
@@ -80,11 +80,11 @@ images = [ "papermod-cover.png" ]
   url = "https://github.com/bahdah"
 
   [[params.socialIcons]]
-  name = "RsS"
+  name = "Rss"
   url = "index.xml"
 
   [params.editPost]
-  URL = "https://github.com/adityatelange/hugo-PaperMod/tree/exampleSite/content"
+  URL = "https://github.com/bahdah/bahdah.github.io/tree/main/content"
   Text = "Suggest Changes"
   appendFilePath = true
 
