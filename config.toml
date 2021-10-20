@@ -1,45 +1,97 @@
 baseURL = 'https://bahdah.github.io/'
 languageCode = 'en-us'
-title = 'My Blog'
+title = 'Bahdah Shin'
 paginate = 5
 theme = "PaperMod"
 
+googleAnalytics = "G-T3GB2SRLJX"
+
+enableInlineShortcodes = true
+enableRobotsTXT = true
 buildDrafts = false
 buildFuture = false
 buildExpired = false
-
-googleAnalytics = "G-T3GB2SRLJX"
+enableEmoji = true
 
 [minify]
-    disableXML = true
-    minifyOutput = true
+disableXML = true
+
+[languages.en]
+languageName = "English"
+weight = 1
+
+[[languages.en.menu.main]]
+name = "Archive"
+url = "archives"
+weight = 5
+
+[[languages.en.menu.main]]
+name = "Search"
+url = "search/"
+weight = 10
+
+[[languages.en.menu.main]]
+name = "Tags"
+url = "tags/"
+weight = 10
+
+[[languages.en.menu.main]]
+name = "Categories"
+url = "categories/"
+weight = 10
+
+[outputs]
+home = [ "HTML", "RSS", "JSON" ]
 
 [params]
-    env = "production"
-    title = "My Blog"
-    description = "My Blog description"
-    keywords = ["blog"]
-    author = "Me"
-    defaultTheme = "auto"
-    disableThemeToggle = false
+env = "production"
+description = "Theme PaperMod - https://github.com/adityatelange/hugo-PaperMod"
+author = "Theme PaperMod"
+defaultTheme = "auto"
+ShowShareButtons = true
+ShowReadingTime = true
+displayFullLangName = true
+ShowPostNavLinks = true
+ShowBreadCrumbs = true
+ShowCodeCopyButtons = true
+ShowToc = true
+images = [ "papermod-cover.png" ]
 
-    ShowReadingTime = true
-    ShowShareButtons = true
-    ShowPostNavLinks = true
-    ShowBreadCrumbs = true
-    comments = false
+  [params.profileMode]
+  enabled = false
+  title = "PaperMod"
+  imageUrl = "#"
+  imageTitle = "my image"
 
-    [profileMode]
-        enabled = true
-        title = "My Blog"
-        subtitle = "This is subtitle"
-    
-    [fuseOpts]
-        isCaseSensitive = false
-        shouldSort = true
-        location = 0
-        distance = 1000
-        threshold = 0.4
-        minMatchCharLength = 0
-        keys = ["title", "permalink", "summary", "content"]
-    
+    [[params.profileMode.buttons]]
+    name = "Archives"
+    url = "archives"
+
+    [[params.profileMode.buttons]]
+    name = "Tags"
+    url = "tags"
+
+  [params.homeInfoParams]
+  Title = "Bahdah Shin"
+  Content = """Welcome to my blog!"""
+
+  [[params.socialIcons]]
+  name = "github"
+  url = "https://github.com/bahdah"
+
+  [[params.socialIcons]]
+  name = "RsS"
+  url = "index.xml"
+
+  [params.editPost]
+  URL = "https://github.com/adityatelange/hugo-PaperMod/tree/exampleSite/content"
+  Text = "Suggest Changes"
+  appendFilePath = true
+
+[taxonomies]
+category = "categories"
+tag = "tags"
+series = "series"
+
+[markup.goldmark.renderer]
+unsafe = true
