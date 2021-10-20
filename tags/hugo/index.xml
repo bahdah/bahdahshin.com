@@ -17,7 +17,7 @@
       <pubDate>Wed, 20 Oct 2021 15:18:08 -0400</pubDate>
       
       <guid>https://bahdah.github.io/posts/hugo-snippets/</guid>
-      <description>hugo new &amp;lt;file path&amp;gt;.md </description>
+      <description>Create New Post hugo new &amp;lt;file path&amp;gt;.md Run Hugo Web Server In Local hugo serve </description>
     </item>
     
   </channel>
