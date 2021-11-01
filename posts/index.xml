@@ -2,26 +2,26 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom" xmlns:content="http://purl.org/rss/1.0/modules/content/">
   <channel>
     <title>Posts on Bahdah Shin</title>
-    <link>https://bahdah.github.io/posts/</link>
+    <link>https://bahdahshin.com/posts/</link>
     <description>Recent content in Posts on Bahdah Shin</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
-    <lastBuildDate>Wed, 20 Oct 2021 15:18:08 -0400</lastBuildDate><atom:link href="https://bahdah.github.io/posts/index.xml" rel="self" type="application/rss+xml" />
+    <lastBuildDate>Wed, 20 Oct 2021 15:18:08 -0400</lastBuildDate><atom:link href="https://bahdahshin.com/posts/index.xml" rel="self" type="application/rss+xml" />
     <item>
       <title>Hugo Snippets</title>
-      <link>https://bahdah.github.io/posts/hugo-snippets/</link>
+      <link>https://bahdahshin.com/posts/hugo-snippets/</link>
       <pubDate>Wed, 20 Oct 2021 15:18:08 -0400</pubDate>
       
-      <guid>https://bahdah.github.io/posts/hugo-snippets/</guid>
+      <guid>https://bahdahshin.com/posts/hugo-snippets/</guid>
       <description>Create New Post hugo new &amp;lt;file path&amp;gt;.md Run Hugo Web Server In Local hugo serve </description>
     </item>
     
     <item>
       <title>Git Snippets</title>
-      <link>https://bahdah.github.io/posts/git-snippets/</link>
+      <link>https://bahdahshin.com/posts/git-snippets/</link>
       <pubDate>Wed, 20 Oct 2021 14:53:52 -0400</pubDate>
       
-      <guid>https://bahdah.github.io/posts/git-snippets/</guid>
+      <guid>https://bahdahshin.com/posts/git-snippets/</guid>
       <description>Update All Submodules git submodule update --recursive --remote </description>
     </item>
     

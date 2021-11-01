@@ -2,17 +2,17 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom" xmlns:content="http://purl.org/rss/1.0/modules/content/">
   <channel>
     <title>hugo on Bahdah Shin</title>
-    <link>https://bahdah.github.io/tags/hugo/</link>
+    <link>https://bahdahshin.com/tags/hugo/</link>
     <description>Recent content in hugo on Bahdah Shin</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
-    <lastBuildDate>Wed, 20 Oct 2021 15:18:08 -0400</lastBuildDate><atom:link href="https://bahdah.github.io/tags/hugo/index.xml" rel="self" type="application/rss+xml" />
+    <lastBuildDate>Wed, 20 Oct 2021 15:18:08 -0400</lastBuildDate><atom:link href="https://bahdahshin.com/tags/hugo/index.xml" rel="self" type="application/rss+xml" />
     <item>
       <title>Hugo Snippets</title>
-      <link>https://bahdah.github.io/posts/hugo-snippets/</link>
+      <link>https://bahdahshin.com/posts/hugo-snippets/</link>
       <pubDate>Wed, 20 Oct 2021 15:18:08 -0400</pubDate>
       
-      <guid>https://bahdah.github.io/posts/hugo-snippets/</guid>
+      <guid>https://bahdahshin.com/posts/hugo-snippets/</guid>
       <description>Create New Post hugo new &amp;lt;file path&amp;gt;.md Run Hugo Web Server In Local hugo serve </description>
     </item>
     
