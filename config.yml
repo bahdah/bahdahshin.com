@@ -30,11 +30,19 @@ menu:
     - identifier: search
       name: Search
       url: /search/
-      weight: 10
+      weight: 11
     - identifier: archives
       name: Archives
       url: /archives/
       weight: 5
+    - identifier: about_me
+      name: About Me
+      url: /about_me/
+      weight: 6
+    - identifier: resume
+      name: Resume
+      url: BahdahShinSoftwareEngineering.pdf
+      weight: 7
 
 
 outputs:
@@ -55,7 +63,6 @@ params:
   ShowBreadCrumbs: true
   ShowCodeCopyButtons: true
   ShowToc: true
-  images: [ "papermod-cover.png" ]
 
 
   profileMode:
@@ -63,10 +70,10 @@ params:
     title: "Bahdah Shin" # optional default will be site title
     subtitle: "Welcome to my blog!"
     buttons:
-      - name: Archive
-        url: "/archives/"
-      - name: Github
-        url: "https://github.com/bahdah/bahdah.github.io"
+      - name: About Me
+        url: "/about_me/"
+      - name: Resume
+        url: BahdahShinSoftwareEngineering.pdf
 
   socialIcons:
     - name: github
