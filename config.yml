@@ -67,7 +67,7 @@ params:
 
   profileMode:
     enabled: true
-    title: "Bahdah Shin" # optional default will be site title
+    title: "Bahdah Shin"
     subtitle: "Welcome to my blog!"
     buttons:
       - name: About Me
@@ -78,7 +78,9 @@ params:
   socialIcons:
     - name: github
       url: "https://github.com/bahdah/bahdah.github.io"
-    - name: RsS
+    - name: linkedin
+      url: "https://www.linkedin.com/in/bahdah/"
+    - name: Rss
       url: "index.xml"
 
   editPost:

@@ -33,3 +33,6 @@ This project utilizes the security cameras into sensors that determine parking a
 This project is an  interactive web app for RIT students to draw with each other in real-time.
 ### [Sneaker Faker](https://devpost.com/software/bh_app2)
 This project is a sentiment analysis application that assess content and decides if the user is a sneaker enthusiast.
+
+# Get In Touch
+### [LinkedIn](https://www.linkedin.com/in/bahdah/)
