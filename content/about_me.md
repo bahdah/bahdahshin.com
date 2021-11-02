@@ -17,7 +17,7 @@ summary: "about me"
 
 🍲 On my free time, I like to find interesting food from around the world and try cooking it.
 
-💪🏽 Proficient in Python and C#. Fluent in Java and Javascript. Experienced in web development, reverse engineering, data mining, and image processing.
+💪🏽 Proficient in Python and C#. Fluent in Java and JavaScript. Experienced in web development, reverse engineering, data mining, and image processing.
 
 
 # Previous Work
