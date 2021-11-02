@@ -77,14 +77,14 @@ params:
 
   socialIcons:
     - name: github
-      url: "https://github.com/bahdah/bahdahshin.com"
+      url: "https://github.com/bahdah/bahdah.github.io"
     - name: linkedin
       url: "https://www.linkedin.com/in/bahdah/"
     - name: Rss
       url: "index.xml"
 
   editPost:
-    URL: "https://github.com/bahdah/bahdahshin.com/tree/main/content"
+    URL: "https://github.com/bahdah/bahdah.github.io/tree/main/content"
     Text: "Suggest Changes" # edit text
     appendFilePath: true # to append file path to Edit link
 
