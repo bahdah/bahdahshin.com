@@ -9,3 +9,9 @@ tags: ["git"]
 ```shell
 git submodule update --recursive --remote
 ```
+
+### Git amend
+```shell
+git commit --amend
+```
+It allows you to commit new changes on the previous commit.
