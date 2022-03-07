@@ -13,7 +13,7 @@
       <pubDate>Wed, 20 Oct 2021 14:53:52 -0400</pubDate>
       
       <guid>https://bahdahshin.com/posts/git-snippets/</guid>
-      <description>Update All Submodules git submodule update --recursive --remote </description>
+      <description>Update All Submodules git submodule update --recursive --remote Git amend git commit --amend It allows you to commit new changes on the previous commit.</description>
     </item>
     
   </channel>
