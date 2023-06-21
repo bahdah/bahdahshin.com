@@ -1,7 +1,8 @@
 /* variables.css */
 :root {
-    --old-main-color: #FFC49B;
-    --old-border-color: #93B5F2;
+    --two-border-color: #FFC49B;
+    --one-border-color: #93B5F2;
+    --contact-color: #FFC49B;
     --border-color: #fff2dd;
     --main-color: #fff2dd;
   }

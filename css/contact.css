@@ -29,11 +29,11 @@ input[type=text], input[type=email], textarea {
     margin: 8px 0;
     box-sizing: border-box;
     border: none;
-    border-bottom: 2px solid var(--border-color);
+    border-bottom: 2px solid var(--contact-color);
 }
 
 input[type=submit] {
-    background-color: var(--border-color);
+    background-color: var(--contact-color);
     color: black;
     padding: 14px 20px;
     border: none;
@@ -43,5 +43,5 @@ input[type=submit] {
 }
 
 input[type=submit]:hover {
-    background-color: var(--border-color);
+    background-color: var(--contact-color);
 }
