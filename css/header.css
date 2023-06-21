@@ -1,3 +1,5 @@
+@import url('variables.css');
+
 .header {
     background-color: var(--border-color);
     text-align: center;
