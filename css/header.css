@@ -1,5 +1,5 @@
 .header {
-    background-color: #FFC49B;
+    background-color: var(--border-color);
     text-align: center;
     padding: 20px;
 }
@@ -9,7 +9,7 @@
     margin: 0;
     padding: 0;
     overflow: hidden;
-    background-color: #FFC49B;
+    background-color: var(--border-color);
 }
 
 .header li {
@@ -29,5 +29,5 @@
 }
 
 .header li a:hover {
-    background-color: #FFC49B;
+    background-color: var(--border-color);
 }
