@@ -2,7 +2,7 @@ document.getElementById('header').innerHTML = `
   <div class="header">
     <ul>
       <li><a href="index.html">Home</a></li>
-      <li class="right"><a href="resume_test.pdf">Resume</a></li>
+      <li class="right"><a href="resume_test.pdf" target="_blank">Resume</a></li>
       <li class="right"><a href="contact.html">Contact</a></li>
       <li class="right"><a href="project.html">Project</a></li>
       <li class="right"><a href="about.html">About</a></li>
