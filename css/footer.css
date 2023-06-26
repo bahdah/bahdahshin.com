@@ -2,10 +2,12 @@
 
 .footer {
     background-color: var(--border-color);
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    height: 60px; /* or any height that you want for the footer */
+    text-align: center;
+    padding: 20px;
+    position: fixed;
+    left: 0;
+    bottom: 0;
+    width: 100%;
 }
 
 .footer span {
