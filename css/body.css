@@ -1,16 +1,19 @@
 @import url('variables.css');
 
 body {
+    display: flex;
+    flex-direction: column;
+    height: 100vh;
     margin: 0;
     background-color: var(--main-color);
     font-family: "Roboto", sans-serif;
 }
 
-.container {
+.content {
+    flex-grow: 1;
     display: flex;
     align-items: center;
     justify-content: center;
-    height: calc(100vh - 60px);
     flex-direction: column;
 }
 
@@ -19,4 +22,3 @@ body {
     text-align: center;
     width: 100%;
 }
-

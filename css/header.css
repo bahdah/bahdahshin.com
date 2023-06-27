@@ -1,12 +1,11 @@
 @import url('variables.css');
 
-.header {
+header {
     background-color: var(--border-color);
-    text-align: center;
     padding: 20px;
 }
 
-.header ul {
+header ul {
     list-style-type: none;
     margin: 0;
     padding: 0;
@@ -14,15 +13,15 @@
     background-color: var(--border-color);
 }
 
-.header li {
+header li {
     float: left;
 }
 
-.header li.right {
+header li.right {
     float: right;
 }
 
-.header li a {
+header li a {
     display: block;
     color: #001B2E;
     text-align: center;
@@ -30,6 +29,6 @@
     text-decoration: none;
 }
 
-.header li a:hover {
-    background-color: var(--border-color);
+header li a:hover {
+    background-color: var(--two-border-color);
 }

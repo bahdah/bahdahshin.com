@@ -4,26 +4,12 @@
     background-color: var(--border-color);
     text-align: center;
     padding: 20px;
-    position: fixed;
-    left: 0;
-    bottom: 0;
-    width: 100%;
+
 }
 
 .footer span {
     color: #666;
     font-size: 12px;
-    display: block;
-    position: absolute;
-    bottom: 10px;
-    position: absolute;
-    width: 90%;
-    left: 50%;
-    top: 45%;
-    bottom: auto;
-    right: auto;
-    transform: translateX(-50%) translateY(-50%);
-    text-align: center;
 }
 
 .footer span a {
