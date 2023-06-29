@@ -2,7 +2,6 @@ const headerTemplate = document.createElement('template');
 
 headerTemplate.innerHTML = `
     <link rel="stylesheet" type="text/css" href="css/header.css">
-    <script defer src="/_vercel/insights/script.js"></script>
     <header>
         <nav>
             <ul>
