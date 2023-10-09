@@ -23,7 +23,11 @@ body {
     align-items: center;
     height: 100vh; /* Or whatever height you prefer */
     text-align: center;
-  }  
+}
+
+.inner_content {
+    text-align: center;
+}  
 
 /* Adjust the padding for screens smaller than 768px */
 @media only screen and (max-width: 768px) {
