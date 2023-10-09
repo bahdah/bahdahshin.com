@@ -18,14 +18,12 @@ body {
 }
 
 .about_content {
-    flex-grow: 1;
     display: flex;
-    align-items: center;
     justify-content: center;
-    flex-direction: column;
-    padding-left: 30%; /* Add 5% padding to the left */
-    padding-right: 30%; /* Add 5% padding to the right */
-}
+    align-items: center;
+    height: 100vh; /* Or whatever height you prefer */
+    text-align: center;
+  }  
 
 /* Adjust the padding for screens smaller than 768px */
 @media only screen and (max-width: 768px) {
