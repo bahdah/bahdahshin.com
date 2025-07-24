@@ -1,4 +1,13 @@
-# Personal Website
+# Bahdah's Profile Page
 
-# Link
-www.bahdahshin.com
+## What technologies are used for this project?
+
+This project is built with:
+
+- Lovable
+- Vite
+- TypeScript
+- React
+- shadcn-ui
+- Tailwind CSS
+
